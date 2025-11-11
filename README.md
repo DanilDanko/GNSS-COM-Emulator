@@ -1,3 +1,25 @@
+## Обратная связь и просьба сообщества
+
+Привет!  
+Я сделал этот эмулятор GNSS COM для короткого теста, он получился довольно узкоспециализированным (работа с NMEA-синтаксисом). Было бы очень интересно узнать ваше мнение:  
+- Может ли этот проект быть полезен кому-то ещё?  
+- Есть ли идеи по доработке или замечания?
+
+Если у вас есть минутка — просто взгляните на проект и напишите пару слов! Любая обратная связь или просто отзыв будут очень ценны. Спасибо!
+
+---
+English version below:
+
+## Feedback & Community Request
+
+Hi!  
+I created this GNSS COM emulator as a quick, specialized project for NMEA syntax testing. I’d love to hear your feedback:
+- Do you think this could be useful for anyone?
+- Any ideas, comments, or suggestions?
+
+Even a quick look or a short comment would mean a lot — thanks!
+
+
 ## Russian
 # Вступление
 Этот инструмент был создан в качестве помощи с настройкой каких-либо: репитеров GPS, ЭКНИС, РЛС, любительских проектов с использованием GPS.
