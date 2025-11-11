@@ -4,6 +4,12 @@ import math
 import threading
 from datetime import datetime, timezone
 
+START_LATITUDE = 59.9343
+START_LONGITUDE = 30.3061
+SPEED = 10.0
+START_COURSE = 45.0
+ALTITUDE = 15.0
+SATELLITES = 8
 
 class NMEAGenerator:
     """Генератор данных в формате NMEA."""
@@ -11,12 +17,12 @@ class NMEAGenerator:
     def __init__(self):
         """Инициализатор начальных координат."""
         # Начальные координаты - Санкт-Петербург, Невский проспект
-        self.latitude = 59.9343  # Широта в градусах.
-        self.longitude = 30.3061  # Долгота в градусах.
-        self.speed = 10.0  # Скорость в узлах (1 узел = 1.852 км/ч).
-        self.course = 45.0  # Курс движения в градусах (0-360).
-        self.altitude = 15.0  # Высота над уровнем моря в метрах.
-        self.satellites = 8  # Количество видимых спутников.
+        self.latitude = START_LATITUDE  # Широта в градусах.
+        self.longitude = START_LONGITUDE  # Долгота в градусах.
+        self.speed = SPEED  # Скорость в узлах (1 узел = 1.852 км/ч).
+        self.course = START_COURSE  # Курс движения в градусах (0-360).
+        self.altitude = ALTITUDE  # Высота над уровнем моря в метрах.
+        self.satellites = SATELLITES  # Количество видимых спутников.
 
     def calculate_checksum(self, nmea_sentence):
         """Вычисление контрольной суммы NMEA."""
